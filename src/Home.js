@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 
-class App extends Component {
+const HomeWrapper = styled.div`
+  display: grid;
+`;
+
+class Home extends Component {
   render() {
     return (
-      <div>
+      <HomeWrapper>
         <h1>Hello, my name is Jesse Mezini and I work with Web Development.</h1>
         <div>
           <a href="">
@@ -16,9 +21,9 @@ class App extends Component {
             <i class="demo-icon icon-facebook-squared">&#xf308;</i>
           </a>
         </div>
-      </div>
+      </HomeWrapper>
     );
   }
 }
 
-export default App;
+export default Home;
