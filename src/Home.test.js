@@ -12,7 +12,9 @@ it('renders welcome message', () => {
   const wrapper = shallow(<Home />);
   const welcome =
     'Hello, my name is Jesse Mezini and I work with Web Development.';
-  expect(wrapper.contains(welcome)).toEqual(true);
+  // console.log(wrapper.find('h1').debug());
+  // expect(wrapper.contains(welcome)).toEqual(true);
+  expect(wrapper.find('h1').text()).toEqual(welcome);
 });
 
 it('renders 3 contact icons', () => {
