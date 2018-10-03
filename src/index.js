@@ -6,6 +6,7 @@ import { injectGlobal } from 'styled-components';
 
 import Home from './Home';
 import Portfolio from './Portfolio/Portfolio';
+import Resume from './Resume/Resume';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -33,7 +34,8 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/Portfolio" component={Portfolio} />
+      <Route path="/portfolio" component={Portfolio} />
+      <Route path="/resume" component={Resume} />
     </Switch>
   </Router>,
   document.getElementById('root')
