@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import styled, { injectGlobal } from 'styled-components';
+import React, { Component, Fragment } from 'react';
+import styled from 'styled-components';
 
 import img from './bg.jpg';
 
-injectGlobal`
-  html {
-    background: url(${img}) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+const BgImage = styled.img`
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 `;
 
 const Container = styled.div`
@@ -26,6 +26,8 @@ const Content = styled.main`
 
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 30px;
+
+  z-index: 1;
 
   a {
     color: #ffffff;
@@ -57,23 +59,27 @@ const Icon = styled.i`
 class Home extends Component {
   render() {
     return (
-      <Container>
-        <Content>
-          <h1>
-            Hello, my name is Jesse Mezini
-            <br /> and I work with Web Development.
-          </h1>
-          <a href="https://twitter.com/jessemezini">
-            <Icon>&#xf099;</Icon>
-          </a>
-          <a href="https://github.com/jessemezini">
-            <Icon>&#xf09b;</Icon>
-          </a>
-          <a href="https://www.facebook.com/jessemezini">
-            <Icon>&#xf308;</Icon>
-          </a>
-        </Content>
-      </Container>
+      <Fragment>
+        <BgImage src={img} alt="" />
+
+        <Container>
+          <Content>
+            <h1>
+              Hello, my name is Jesse Mezini
+              <br /> and I work with Web Development.
+            </h1>
+            <a href="https://twitter.com/jessemezini">
+              <Icon>&#xf099;</Icon>
+            </a>
+            <a href="https://github.com/jessemezini">
+              <Icon>&#xf09b;</Icon>
+            </a>
+            <a href="https://www.facebook.com/jessemezini">
+              <Icon>&#xf308;</Icon>
+            </a>
+          </Content>
+        </Container>
+      </Fragment>
     );
   }
 }
