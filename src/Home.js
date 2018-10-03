@@ -20,7 +20,7 @@ const Container = styled.div`
   align-items: center;
 `;
 
-const Content = styled.div`
+const Content = styled.main`
   text-align: center;
   color: #ffffff;
 
