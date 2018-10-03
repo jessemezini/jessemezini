@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import styledNormalize from 'styled-normalize';
 import { injectGlobal } from 'styled-components';
 
 import Home from './Home';
+import Portfolio from './Portfolio/Portfolio';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -27,5 +29,13 @@ injectGlobal`
   }
 `;
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(
+  <Router>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/Portfolio" component={Portfolio} />
+    </Switch>
+  </Router>,
+  document.getElementById('root')
+);
 registerServiceWorker();
