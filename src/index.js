@@ -28,6 +28,14 @@ injectGlobal`
     font-weight: normal;
     font-style: normal;
   }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
 `;
 
 ReactDOM.render(
