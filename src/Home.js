@@ -23,10 +23,7 @@ const Container = styled.div`
 const Content = styled.main`
   text-align: center;
   color: #ffffff;
-
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 30px;
-
   z-index: 1;
 
   a {
