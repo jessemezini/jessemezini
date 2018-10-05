@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Aside = styled.aside`
+const Container = styled.aside`
   background-color: #3f51b5;
   color: #ffffff;
 
@@ -24,9 +24,9 @@ const Aside = styled.aside`
   }
 `;
 
-const AsideHeader = styled.h2`
+const AsideHeader = styled.p`
   font-size: 19px;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   background-color: #2a3b99;
   padding: 7px 20px;
 `;
@@ -66,7 +66,7 @@ const Icon = styled.i`
 `;
 
 const Sidebar = () => (
-  <Aside>
+  <Container>
     <h1>Jesse Mezini</h1>
     <h3>Web Developer</h3>
 
@@ -85,7 +85,11 @@ const Sidebar = () => (
 
     <AsideInfo>
       Email <br />
-      <span>jessemezini-gmail.com</span>
+      <span>
+        jessemezini
+        <code>@</code>
+        gmail.com
+      </span>
     </AsideInfo>
 
     <AsideInfo>
@@ -116,7 +120,7 @@ const Sidebar = () => (
     </AsideInfo>
 
     <AsideInfo>
-      <span>Photoshop / Corel Draw</span>
+      <span>Photoshop</span>
     </AsideInfo>
 
     <AsideInfo>
@@ -136,27 +140,25 @@ const Sidebar = () => (
 
     <AsideHeader>Courses</AsideHeader>
     <AsideInfo>
-      <span>ES6 https://es6.io</span>
+      <span>ES6 es6.io</span>
     </AsideInfo>
 
     <AsideInfo>
-      <span>React for Beginners https://reactforbeginners.com</span>
+      <span>React for Beginners reactforbeginners.com</span>
     </AsideInfo>
 
     <AsideInfo>
-      <span>Modern React with Redux https://www.udemy.com/react-redux</span>
+      <span>Modern React with Redux udemy.com/react-redux</span>
     </AsideInfo>
 
     <AsideInfo>
-      <span>
-        Advanced React and Redux https://www.udemy.com/react-redux-tutorial
-      </span>
+      <span>Advanced React and Redux udemy.com/react-redux-tutorial</span>
     </AsideInfo>
 
     <AsideInfo>
       <span>
         React Testing with Jest and Enzyme
-        https://www.udemy.com/react-testing-with-jest-and-enzyme/
+        udemy.com/react-testing-with-jest-and-enzyme/
       </span>
     </AsideInfo>
 
@@ -165,7 +167,7 @@ const Sidebar = () => (
         Others from codecademy.com, egghead.io, coursera.org and more.
       </span>
     </AsideInfo>
-  </Aside>
+  </Container>
 );
 
 export default Sidebar;
