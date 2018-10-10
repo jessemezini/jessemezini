@@ -29,6 +29,10 @@ const Info = styled.div`
     margin: 10px auto;
   }
 
+  &:last-of-type {
+    margin-bottom: 50px;
+  }
+
   @media (min-width: 576px) {
     grid-template-columns: 100px auto;
   }
@@ -125,8 +129,7 @@ const Content = () => (
     <Info>
       <p>2015</p>
       <div>
-        <h3>App Development</h3>
-        <p>Ônibus Iracemápolis</p>
+        <h3>App Ônibus Iracemápolis</h3>
         <p>
           <i>
             Free app for users of public transportation in Iracemápolis / São
@@ -136,11 +139,31 @@ const Content = () => (
 
         <ul>
           <li>
-            Initially built with ionic and angular v1, now uses react native.
+            Initially built with Ionic and Angular v1, now uses React Native.
           </li>
           <li>
-            With more than 2.4k downloads and 4.7 average rating on google play.
+            With more than 2.4k downloads and 4.7 average rating on Google Play.
           </li>
+        </ul>
+      </div>
+    </Info>
+
+    <Info>
+      <p>2018</p>
+      <div>
+        <h3>PWA Age of Empires 2 - Technologie Tree</h3>
+        <p>
+          <i>
+            Age of Empires II: The Age of Kings is a real-time strategy video
+            game. The app was developed to help people that don't have the game
+            installed and is watching a live stream, and want to check the
+            civilizations bonuses{' '}
+            <a href="https://aoe2techtree.com">aoe2techtree.com</a>.
+          </i>
+        </p>
+
+        <ul>
+          <li>Progressive web app built with ReactJS.</li>
         </ul>
       </div>
     </Info>
