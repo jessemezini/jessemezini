@@ -25,22 +25,26 @@ const Info = styled.div`
   display: grid;
   grid-template-columns: auto;
 
+  ul li {
+    margin: 10px auto;
+  }
+
   @media (min-width: 576px) {
     grid-template-columns: 100px auto;
   }
 
   @media (min-width: 992px) {
     grid-template-columns: 150px auto;
-   }
+  }
 `;
 
 const Content = () => (
   <Article>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, aperiam
-      provident molestiae quaerat qui sapiente, consequuntur quos architecto
-      magnam placeat minima maxime illo nisi perferendis vel sunt, at quam!
-      Eligendi.
+      Web developer with over 5 years of experience building websites. I worked
+      as a freelancer for several clients in my region. I'm always trying to
+      improve and keep up with new technologies to build better and faster
+      websites.
     </p>
 
     <Title>Experience</Title>
@@ -51,23 +55,19 @@ const Content = () => (
         Present
       </p>
       <div>
-        <h3>Web Design / Development</h3>
+        <h3>Web Developer</h3>
         <p>
           <i>Freelancer</i>
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          facilis maiores aliquid dolorem repudiandae accusamus deserunt illo
-          quasi fuga quae suscipit accusantium odit, fugiat sit pariatur nemo
-          asperiores? Accusantium, hic?
-        </p>
-
         <ul>
           <li>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi nemo
-            a, veniam recusandae earum sed voluptatem quasi laudantium, aut
-            consequuntur perferendis, tempora similique. Voluptates
-            voluptatibus, iste assumenda tenetur repellat unde.
+            Meet with clients to collect requirements, design sites and outline
+            schedules.
+          </li>
+          <li>Design and develop websites with html5 and responsive design.</li>
+          <li>
+            Website optimization, using tools like lighthouse, chrome audits,
+            and webpagetest.org.
           </li>
         </ul>
       </div>
@@ -75,55 +75,25 @@ const Content = () => (
 
     <Info>
       <p>
-        2013-01 <br />
-        Present
+        2014-01 <br />
+        2018-04
       </p>
       <div>
-        <h3>Web Design / Development</h3>
+        <h3>Web Developer</h3>
+        <p>Gazeta de Iracemápolis (Part-time)</p>
         <p>
-          <i>Freelancer</i>
+          <i>
+            Gazeta de Iracemápolis is the leading newspaper media company from
+            Iracemápolis/São Paulo
+          </i>
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          facilis maiores aliquid dolorem repudiandae accusamus deserunt illo
-          quasi fuga quae suscipit accusantium odit, fugiat sit pariatur nemo
-          asperiores? Accusantium, hic?
-        </p>
-
         <ul>
+          <li>Design, develop and maintenance of websites.</li>
+          <li>Web content management.</li>
+          <li>Social media content management.</li>
           <li>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi nemo
-            a, veniam recusandae earum sed voluptatem quasi laudantium, aut
-            consequuntur perferendis, tempora similique. Voluptates
-            voluptatibus, iste assumenda tenetur repellat unde.
-          </li>
-        </ul>
-      </div>
-    </Info>
-
-    <Info>
-      <p>
-        2013-01 <br />
-        Present
-      </p>
-      <div>
-        <h3>Web Design / Development</h3>
-        <p>
-          <i>Freelancer</i>
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          facilis maiores aliquid dolorem repudiandae accusamus deserunt illo
-          quasi fuga quae suscipit accusantium odit, fugiat sit pariatur nemo
-          asperiores? Accusantium, hic?
-        </p>
-
-        <ul>
-          <li>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi nemo
-            a, veniam recusandae earum sed voluptatem quasi laudantium, aut
-            consequuntur perferendis, tempora similique. Voluptates
-            voluptatibus, iste assumenda tenetur repellat unde.
+            Experience in layout, artwork, and diagramming newspaper, and
+            magazine.
           </li>
         </ul>
       </div>
@@ -133,27 +103,18 @@ const Content = () => (
 
     <Info>
       <p>
-        2013-01 <br />
-        Present
+        2013 <br />
+        2016
       </p>
       <div>
-        <h3>Web Design / Development</h3>
-        <p>
-          <i>Freelancer</i>
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          facilis maiores aliquid dolorem repudiandae accusamus deserunt illo
-          quasi fuga quae suscipit accusantium odit, fugiat sit pariatur nemo
-          asperiores? Accusantium, hic?
-        </p>
-
+        <h3>
+          Analysis and Systems Development, Integrated College Einstein de
+          Limeira
+        </h3>
         <ul>
           <li>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi nemo
-            a, veniam recusandae earum sed voluptatem quasi laudantium, aut
-            consequuntur perferendis, tempora similique. Voluptates
-            voluptatibus, iste assumenda tenetur repellat unde.
+            Coursework in programming, data structures, and computer
+            architecture.
           </li>
         </ul>
       </div>
@@ -162,28 +123,23 @@ const Content = () => (
     <Title>Projects</Title>
 
     <Info>
-      <p>
-        2013-01 <br />
-        Present
-      </p>
+      <p>2015</p>
       <div>
-        <h3>Web Design / Development</h3>
+        <h3>App Development</h3>
+        <p>Ônibus Iracemápolis</p>
         <p>
-          <i>Freelancer</i>
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          facilis maiores aliquid dolorem repudiandae accusamus deserunt illo
-          quasi fuga quae suscipit accusantium odit, fugiat sit pariatur nemo
-          asperiores? Accusantium, hic?
+          <i>
+            Free app for users of public transportation in Iracemápolis / São
+            Paulo.
+          </i>
         </p>
 
         <ul>
           <li>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi nemo
-            a, veniam recusandae earum sed voluptatem quasi laudantium, aut
-            consequuntur perferendis, tempora similique. Voluptates
-            voluptatibus, iste assumenda tenetur repellat unde.
+            Initially built with ionic and angular v1, now uses react native.
+          </li>
+          <li>
+            With more than 2.4k downloads and 4.7 average rating on google play.
           </li>
         </ul>
       </div>

@@ -102,7 +102,7 @@ const Sidebar = () => (
       </span>
     </AsideInfo>
 
-    <AsideHeader>Skills</AsideHeader>
+    <AsideHeader>Technical Skills</AsideHeader>
     <AsideInfo>
       <span>HTML</span>
     </AsideInfo>
@@ -112,19 +112,11 @@ const Sidebar = () => (
     </AsideInfo>
 
     <AsideInfo>
-      <span>Javascript</span>
-    </AsideInfo>
-
-    <AsideInfo>
-      <span>Wordpress</span>
+      <span>Javascript / ReactJS</span>
     </AsideInfo>
 
     <AsideInfo>
       <span>Photoshop</span>
-    </AsideInfo>
-
-    <AsideInfo>
-      <span>Git</span>
     </AsideInfo>
 
     <AsideHeader>Language</AsideHeader>
