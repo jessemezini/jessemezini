@@ -22,6 +22,12 @@ const Container = styled.main`
   a:hover {
     text-decoration: underline;
   }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 `;
 
 const Portfolio = () => (

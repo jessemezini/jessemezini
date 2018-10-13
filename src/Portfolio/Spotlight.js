@@ -16,10 +16,6 @@ const Container = styled.article`
 `;
 
 const Image = styled.img`
-  display: block;
-  max-width: 100%;
-  height: auto;
-
   grid-column: span 5;
   grid-row: 1 / 3;
 

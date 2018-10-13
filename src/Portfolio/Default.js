@@ -17,10 +17,6 @@ const Container = styled.article`
 `;
 
 const Image = styled.img`
-  display: block;
-  max-width: 100%;
-  height: auto;
-
   grid-column: 2 / 5;
   grid-row: 2 / 3;
 
@@ -36,8 +32,9 @@ const Info = styled.div`
   }
 `;
 
-const Phone = styled.div`
+const Phone = styled.img`
   grid-column: 2 / 5;
+  grid-row: 2 / 3;
   justify-self: center;
   align-self: center;
 
@@ -72,9 +69,7 @@ const Default = () => (
       </p>
     </Info>
 
-    <Phone>
-      <img src={phone} alt="jessemezini.com mobile version" />
-    </Phone>
+    <Phone src={phone} alt="jessemezini.com mobile version" />
   </Container>
 );
 
