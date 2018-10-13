@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 import { Icon } from '../styled';
 
-import jessemeziniPortfolio from './jessemezini-portfolio.jpg';
-import phone from './phone.png';
+import jessemeziniPortfolio from './images/jessemezini-portfolio.jpg';
+import phone from './images/phone.png';
 
 const Container = styled.article`
   display: grid;

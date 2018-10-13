@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { Icon } from '../styled';
 
-import aoe2techtree from './aoe2techtree.jpg';
+import aoe2techtree from './images/aoe2techtree.jpg';
 
 const Container = styled.article`
   display: grid;
