@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import Spotlight from './Spotlight';
-import Default from './Default';
+import Project from './Project';
+
+import data from './data';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -30,14 +31,24 @@ const Container = styled.main`
   }
 `;
 
-const Portfolio = () => (
-  <Wrapper>
-    <Container>
-      <Spotlight />
-      <Default />
-      <Default />
-    </Container>
-  </Wrapper>
-);
+class PortfolioContainer extends Component {
+  state = {
+    data: [],
+  };
 
-export default Portfolio;
+  componentDidMount() {
+    this.setState({ data });
+  }
+
+  render() {
+    return (
+      <Wrapper>
+        <Container>
+          <Project data={this.state.data} />
+        </Container>
+      </Wrapper>
+    );
+  }
+}
+
+export default PortfolioContainer;

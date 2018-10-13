@@ -1,0 +1,72 @@
+import React from 'react';
+import styled from 'styled-components';
+
+import { Icon } from '../styled';
+
+const Container = styled.article`
+  display: grid;
+  grid-template-columns: 30px 1fr 30px 1fr 30px;
+
+  @media (min-width: 992px) {
+    grid-template-columns: 100px 1fr 60px 1fr 100px;
+    grid-template-rows: 50px auto 20px auto 50px;
+  }
+`;
+
+const Image = styled.img`
+  grid-column: 2 / 5;
+  grid-row: 2 / 3;
+
+  box-shadow: 0 10px 6px -6px #777;
+`;
+
+const Info = styled.div`
+  grid-column: 2 / 5;
+
+  @media (min-width: 576px) {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
+`;
+
+const Phone = styled.img`
+  grid-column: 2 / 5;
+  grid-row: 2 / 3;
+  justify-self: center;
+  align-self: center;
+
+  @media (min-width: 576px) {
+    grid-column: 4 / 5;
+    grid-row: 2 / 5;
+  }
+`;
+
+const Default = props => (
+  <div>
+    {props.data.map(item => {
+      return (
+        <Container key={item.name}>
+          <Image src={item.mainImg} alt={item.mainImgAlt} />
+          <Info>
+            <h3>
+              <a href={item.projectUrl}>
+                <Icon>&#xe800;</Icon> {item.projectUrl}
+              </a>
+            </h3>
+            <p>{item.projectInfo}</p>
+
+            <h3>
+              <Icon>&#xf121;</Icon> Stack
+            </h3>
+            <p>{item.projectStackInfo}</p>
+          </Info>
+          {item.mobileImg ? (
+            <Phone src={item.mobileImg} alt={item.mobileImgAlt} />
+          ) : null}
+        </Container>
+      );
+    })}
+  </div>
+);
+
+export default Default;
