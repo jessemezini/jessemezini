@@ -1,10 +1,14 @@
 import aoe2techtree from './images/aoe2techtree.jpg';
 import jessemeziniPortfolio from './images/jessemezini-portfolio.jpg';
 import phone from './images/phone.png';
+import imgIlCardapio from './images/ilcardapio.jpg';
+import imgIlCardapioPhone from './images/ilcardapio-phone.png';
+import imgGazeta from './images/gazeta.jpg';
+import imgGazetaPhone from './images/gazeta-phone.png';
 
 const data = [
   {
-    name: 'AoE 2 Tech Tree',
+    name: 'AoE 2 - Tech Tree',
     isHighlightProject: true,
     mainImg: aoe2techtree,
     mainImgAlt: 'Age of Empires 2 - Tech Tree',
@@ -17,11 +21,24 @@ const data = [
   {
     name: 'Progressive Web Apps',
     isHighlightProject: false,
-    mainImg: jessemeziniPortfolio,
-    mainImgAlt: 'Age of Empires 2 - Tech Tree',
-    mobileImg: phone,
-    mobileImgAlt: 'Age of Empires 2 - Tech Tree',
+    mainImg: imgIlCardapio,
+    mainImgAlt: 'Il Cardápio demos',
+    mobileImg: imgIlCardapioPhone,
+    mobileImgAlt: 'Il Cardápio demo phone version',
     projectUrl: 'https://pizzadacasairacemapolis.com.br',
+    projectInfo:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, possimus assumenda iste unde ipsum, dolorem quas veniam excepturi voluptates, quos provident rerum mollitia repudiandae non quae tempora odit quaerat doloribus!',
+    projectStackInfo:
+      "Progressive web app with workbox, yeoman web app, , initial server configuration with nginx and SSL with let's encrypt, now using firebase hosting.",
+  },
+  {
+    name: 'Gazeta de Iracemápolis',
+    isHighlightProject: false,
+    mainImg: imgGazeta,
+    mainImgAlt: 'Gazeta de Iracemápolis site',
+    mobileImg: imgGazetaPhone,
+    mobileImgAlt: 'Gazeta de Iracemápolis site mobile version',
+    projectUrl: 'http://gazetadeiracemapolis.com.br',
     projectInfo:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, possimus assumenda iste unde ipsum, dolorem quas veniam excepturi voluptates, quos provident rerum mollitia repudiandae non quae tempora odit quaerat doloribus!',
     projectStackInfo:
