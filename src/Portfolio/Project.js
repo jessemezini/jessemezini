@@ -50,7 +50,7 @@ const Phone = styled.img`
   }
 `;
 
-const Default = props => (
+const Project = props => (
   <div>
     {props.data.map(item => {
       return (
@@ -63,7 +63,7 @@ const Default = props => (
           <Info isHighlight={item.isHighlightProject}>
             <h3>
               <Icon>&#xe800;</Icon>
-              <a href={item.projectUrl}>{item.projectUrl}</a>
+              <a href={item.projectUrl}>{item.name}</a>
             </h3>
             <p>{item.projectInfo}</p>
           </Info>
@@ -82,4 +82,4 @@ const Default = props => (
   </div>
 );
 
-export default Default;
+export default Project;
