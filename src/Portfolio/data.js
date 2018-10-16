@@ -1,6 +1,4 @@
 import aoe2techtree from './images/aoe2techtree.jpg';
-import jessemeziniPortfolio from './images/jessemezini-portfolio.jpg';
-import phone from './images/phone.png';
 import imgIlCardapio from './images/ilcardapio.jpg';
 import imgIlCardapioPhone from './images/ilcardapio-phone.png';
 import imgGazeta from './images/gazeta.jpg';
