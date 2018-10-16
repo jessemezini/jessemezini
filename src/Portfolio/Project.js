@@ -1,3 +1,4 @@
+//@flow
 import React from 'react';
 import styled from 'styled-components';
 
@@ -50,7 +51,21 @@ const Phone = styled.img`
   }
 `;
 
-const Project = props => (
+type Props = {
+  data: Array<{
+    name: string,
+    mainImg: string,
+    mainImgAlt: string,
+    isHighlightProject: boolean,
+    projectUrl: string,
+    projectInfo: string,
+    projectStackInfo: string,
+    mobileImg: string,
+    mobileImgAlt: string,
+  }>,
+};
+
+const Project = (props: Props) => (
   <div>
     {props.data.map(item => {
       return (

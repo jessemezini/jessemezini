@@ -1,3 +1,4 @@
+//@flow
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
@@ -31,7 +32,21 @@ const Container = styled.main`
   }
 `;
 
-class PortfolioContainer extends Component {
+type State = {
+  data: Array<{
+    name: string,
+    mainImg: string,
+    mainImgAlt: string,
+    isHighlightProject: boolean,
+    projectUrl: string,
+    projectInfo: string,
+    projectStackInfo: string,
+    mobileImg: string,
+    mobileImgAlt: string,
+  }>,
+};
+
+class PortfolioContainer extends Component<{}, State> {
   state = {
     data: [],
   };
