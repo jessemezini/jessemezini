@@ -3,6 +3,8 @@ import imgIlCardapio from './images/ilcardapio.jpg';
 import imgIlCardapioPhone from './images/ilcardapio-phone.png';
 import imgGazeta from './images/gazeta.jpg';
 import imgGazetaPhone from './images/gazeta-phone.png';
+import imgIracemapolis from './images/iracemapolis.jpg';
+import imgIracemapolisPhone from './images/iracemapolis-mobile.png';
 
 const data = [
   {
@@ -25,9 +27,9 @@ const data = [
     mobileImgAlt: 'Il Cardápio demo phone version',
     projectUrl: 'https://pizzadacasairacemapolis.com.br',
     projectInfo:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, possimus assumenda iste unde ipsum, dolorem quas veniam excepturi voluptates, quos provident rerum mollitia repudiandae non quae tempora odit quaerat doloribus!',
+      'Food menu website, very lightweight with offline support and add to home screen message. Theme with variants design, customized for each client. Some clients: pizzadacasairacemapolis.com.br, pastelariadogordao.com.br, pizzariaimperio.com.br.',
     projectStackInfo:
-      "Progressive web app with workbox, yeoman web app, , initial server configuration with nginx and SSL with let's encrypt, now using firebase hosting.",
+      "Progressive web app, workbox, yeoman web app, gulp, initial server configuration with nginx and SSL with let's encrypt, now using firebase hosting.",
   },
   {
     name: 'Gazeta de Iracemápolis',
@@ -38,9 +40,22 @@ const data = [
     mobileImgAlt: 'Gazeta de Iracemápolis site mobile version',
     projectUrl: 'http://gazetadeiracemapolis.com.br',
     projectInfo:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, possimus assumenda iste unde ipsum, dolorem quas veniam excepturi voluptates, quos provident rerum mollitia repudiandae non quae tempora odit quaerat doloribus!',
+      'Gazeta de Iracemápolis is the leading newspaper media company from Iracemápolis/São Paulo',
     projectStackInfo:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, quisquam qui molestiae adipisci culpa doloribus commodi. Velit provident quas cupiditate vero accusamus iure. Debitis, ea nulla molestias eveniet quas optio!',
+      'Wordpress, bootstrap, sass, vagrant, wordpress-bedrock, composer, wp-cli, lemp, ssh, sftp.',
+  },
+  {
+    name: 'Iracemápolis City Hall',
+    isHighlightProject: false,
+    mainImg: imgIracemapolis,
+    mainImgAlt: 'Iracemápolis City Hall site',
+    mobileImg: imgIracemapolisPhone,
+    mobileImgAlt: 'Iracemápolis City Hall site mobile version',
+    projectUrl: 'http://iracemapolis.sp.gov.br',
+    projectInfo:
+      'Gazeta de Iracemápolis is the leading newspaper media company from Iracemápolis/São Paulo',
+    projectStackInfo:
+      'Wordpress, bootstrap, sass, vagrant, wordpress-bedrock, composer, wp-cli, lemp, ssh, sftp.',
   },
 ];
 
