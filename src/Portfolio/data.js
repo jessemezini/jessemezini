@@ -5,6 +5,8 @@ import imgGazeta from './images/gazeta.jpg';
 import imgGazetaPhone from './images/gazeta-phone.png';
 import imgIracemapolis from './images/iracemapolis.jpg';
 import imgIracemapolisPhone from './images/iracemapolis-mobile.png';
+import imgOnibusIracemapolis from './images/onibus-iracemapolis.jpg';
+import imgOnibusIracemapolisPhone from './images/onibus-iracemapolis-mobile.png';
 
 const data = [
   {
@@ -45,6 +47,20 @@ const data = [
       'Wordpress, bootstrap, sass, vagrant, wordpress-bedrock, composer, wp-cli, lemp, ssh, sftp.',
   },
   {
+    name: 'Ônibus Iracemápolis',
+    isHighlightProject: false,
+    mainImg: imgOnibusIracemapolis,
+    mainImgAlt: 'demo of app in play store',
+    mobileImg: imgOnibusIracemapolisPhone,
+    mobileImgAlt: 'demo on phone',
+    projectUrl:
+      'https://play.google.com/store/apps/details?id=com.ionicframework.irabusao181784',
+    projectInfo:
+      'An app for users of public transportation in Iracemápolis / São Paulo. This application focuses on facilitating the use of the public transport service allowing you to easily check the timetables of buses without the need for Internet connection.',
+    projectStackInfo:
+      'Initially built with Ionic and Angular v1, now uses React Native.',
+  },
+  {
     name: 'Iracemápolis City Hall',
     isHighlightProject: false,
     mainImg: imgIracemapolis,
@@ -53,9 +69,8 @@ const data = [
     mobileImgAlt: 'Iracemápolis City Hall site mobile version',
     projectUrl: 'http://iracemapolis.sp.gov.br',
     projectInfo:
-      'Gazeta de Iracemápolis is the leading newspaper media company from Iracemápolis/São Paulo',
-    projectStackInfo:
-      'Wordpress, bootstrap, sass, vagrant, wordpress-bedrock, composer, wp-cli, lemp, ssh, sftp.',
+      'Iracemápolis is a municipality in the state of São Paulo in Brazil.',
+    projectStackInfo: 'Wordpress, bootstrap css.',
   },
 ];
 
