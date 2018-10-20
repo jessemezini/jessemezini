@@ -2,11 +2,13 @@
   "name": "jessemezini.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jessemezini.com",
   "dependencies": {
     "@types/jest": "^23.3.5",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
     "flow-bin": "^0.83.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-router-dom": "^4.3.1",
