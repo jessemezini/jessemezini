@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import createHashHistory from 'history/createHashHistory';
 import styledNormalize from 'styled-normalize';
 import { injectGlobal } from 'styled-components';
 
@@ -39,10 +38,8 @@ injectGlobal`
   }
 `;
 
-const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
-
 ReactDOM.render(
-  <Router history={hashHistory}>
+  <Router>
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/portfolio" component={Portfolio} />
