@@ -8,6 +8,8 @@ import Home from './Home';
 import Portfolio from './Portfolio/Portfolio';
 import Resume from './Resume/Resume';
 
+import * as serviceWorker from './serviceWorker';
+
 import eot from './fonts/fontello.eot';
 import svg from './fonts/fontello.svg';
 import ttf from './fonts/fontello.ttf';
@@ -46,3 +48,4 @@ ReactDOM.render(
   </Router>,
   document.getElementById('root')
 );
+serviceWorker.unregister();
