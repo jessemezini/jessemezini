@@ -18,7 +18,7 @@ const data = [
     projectInfo:
       "Age of Empires II is a real-time strategy video game. The app was developed to help people that don't have the game installed and is watching a live stream, and want to check the civilizations bonuses.",
     projectStackInfo:
-      'ReactJS, flow, styled-components, code-splitting, css flexbox, sprite image, border-image, progressive web app, continuous integration with Bitbucket and Netlify.',
+      'ReactJS, flow, styled-components, code-splitting, css flexbox, sprite image, border-image, svg, progressive web app, continuous integration with Bitbucket and Netlify.',
   },
   {
     name: 'Progressive Web Apps',
