@@ -22,6 +22,18 @@ const Container = styled.aside`
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  @media print {
+    background-color: #ffffff;
+    color: #000;
+
+    h1,
+    h3,
+    p {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
 `;
 
 const AsideHeader = styled.p`
@@ -41,28 +53,13 @@ const AsideInfo = styled.p`
   a {
     color: #ffffff;
     text-decoration: none;
-    padding: 5px;
   }
-`;
 
-const Icon = styled.i`
-  font-family: 'fontello';
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: 0.2em;
-  text-align: center;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1em;
-  margin-left: 0.2em;
-  font-size: 125%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+  @media print {
+    a {
+      color: #000;
+    }
+  }
 `;
 
 const Sidebar = () => (
@@ -95,10 +92,7 @@ const Sidebar = () => (
     <AsideInfo>
       Github <br />
       <span>
-        <a href="https://github.com/jessemezini">
-          <Icon>&#xf09b;</Icon>
-          github.com/jessemezini
-        </a>
+        <a href="https://github.com/jessemezini">github.com/jessemezini</a>
       </span>
     </AsideInfo>
 
