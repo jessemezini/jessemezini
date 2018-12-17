@@ -26,6 +26,14 @@ const Container = styled.main`
   @media (min-width: 992px) {
     grid-template-columns: 300px 1fr;
   }
+
+  @media print {
+    grid-template-columns: 230px 1fr;
+
+    @page {
+      margin: 0.3cm;
+    }
+  }
 `;
 
 const Resume = () => (

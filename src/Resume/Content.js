@@ -9,6 +9,10 @@ const Article = styled.article`
   @media (min-width: 576px) {
     padding: 0 30px;
   }
+
+  @media print {
+    padding: 0 15px;
+  }
 `;
 
 const Title = styled.p`
@@ -19,6 +23,10 @@ const Title = styled.p`
   color: #2a3b99;
   padding: 5px;
   margin-top: 50px;
+
+  @media print {
+    color: #000;
+  }
 `;
 
 const Info = styled.div`
@@ -66,14 +74,20 @@ const Content = () => (
         <ul>
           <li>
             Meet with clients to collect requirements, design sites and outline
-            schedules.
+            schedules
           </li>
-          <li>Design and develop websites with html5 and responsive design.</li>
+          <li>Design and develop websites with html5 and responsive design</li>
           <li>
             Website optimization, using tools like lighthouse, chrome audits,
-            and webpagetest.org.
+            and webpagetest.org
           </li>
         </ul>
+
+        <p>
+          <i>
+            Stack: Html5, css, javascript/jquery, gulp, wordpress, bootstrap, sass, vagrant, wordpress-bedrock, composer, wp-cli, lemp, ssh, sftp.
+          </i>
+        </p>
       </div>
     </Info>
 
@@ -92,9 +106,9 @@ const Content = () => (
           </i>
         </p>
         <ul>
-          <li>Design, develop and maintenance of websites.</li>
-          <li>Web content management.</li>
-          <li>Social media content management.</li>
+          <li>Design, develop and maintenance of websites</li>
+          <li>Web content management</li>
+          <li>Social media content management</li>
           <li>
             Experience in layout, artwork, and diagramming newspaper, and
             magazine.
@@ -133,18 +147,24 @@ const Content = () => (
         <p>
           <i>
             Free app for users of public transportation in Iracemápolis / São
-            Paulo.
+            Paulo
           </i>
         </p>
 
         <ul>
           <li>
-            Initially built with Ionic and Angular v1, now uses React Native.
+            Initially built with Ionic and Angular v1, now uses React Native
           </li>
           <li>
-            With more than 2.4k downloads and 4.7 average rating on Google Play.
+            With more than 2.4k downloads and 4.7 average rating on Google Play
           </li>
         </ul>
+
+        <p>
+          <i>
+            Stack: React Native.
+          </i>
+        </p>
       </div>
     </Info>
 
@@ -158,13 +178,19 @@ const Content = () => (
             game. The app was developed to help people that don't have the game
             installed and is watching a live stream, and want to check the
             civilizations bonuses{' '}
-            <a href="https://aoe2techtree.com">aoe2techtree.com</a>.
+            <a href="https://aoe2techtree.com">aoe2techtree.com</a>
           </i>
         </p>
 
         <ul>
-          <li>Progressive web app built with ReactJS.</li>
+          <li>Progressive web app built with ReactJS</li>
         </ul>
+
+        <p>
+          <i>
+            Stack: Reactjs, flow, styled-components, code-splitting, css flexbox, sprite image, border-image, svg, progressive web app, continuous integration with Bitbucket and Netlify.
+          </i>
+        </p>
       </div>
     </Info>
   </Article>
