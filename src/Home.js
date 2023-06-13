@@ -1,9 +1,9 @@
-import React, { Component, Fragment } from 'react';
-import styled from 'styled-components';
+import React, { Component, Fragment } from "react";
+import styled from "styled-components";
 
-import { Icon } from './styled';
+import { Icon } from "./styled";
 
-import img from './bg.jpg';
+import img from "./bg.jpg";
 
 const BgImage = styled.img`
   position: fixed;
@@ -44,8 +44,8 @@ class Home extends Component {
         <Container>
           <Content>
             <h1>
-              Hello, my name is Jesse Mezini
-              <br /> and I work with Web Development.
+              Jesse Mezini
+              <br /> Web / Mobile Developer.
             </h1>
             <a href="https://twitter.com/jessemezini">
               <Icon>&#xf099;</Icon>
