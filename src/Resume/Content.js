@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Article = styled.article`
   padding: 0 20px;
@@ -53,8 +53,8 @@ const Info = styled.div`
 const Content = () => (
   <Article>
     <p>
-      Web developer with over 5 years of experience building websites. I worked
-      as a freelancer for several clients in my region. I'm always trying to
+      Web and mobile app developer with over 10 years of experience. I worked as
+      a freelancer for several clients in my region. I'm always trying to
       improve and keep up with new technologies to build better and faster
       websites.
     </p>
@@ -69,7 +69,7 @@ const Content = () => (
       <div>
         <h3>Web Developer</h3>
         <p>
-          <i>Freelancer</i>
+          <i>Freelancer / Solopreneur</i>
         </p>
         <ul>
           <li>
@@ -85,7 +85,8 @@ const Content = () => (
 
         <p>
           <i>
-            Stack: Html5, css, javascript/jquery, gulp, wordpress, bootstrap, sass, vagrant, wordpress-bedrock, composer, wp-cli, lemp, ssh, sftp.
+            Stack: Html5, css, javascript/jquery, gulp, wordpress, bootstrap,
+            sass, vagrant, wordpress-bedrock, composer, wp-cli, lemp, ssh, sftp.
           </i>
         </p>
       </div>
@@ -161,9 +162,7 @@ const Content = () => (
         </ul>
 
         <p>
-          <i>
-            Stack: React Native.
-          </i>
+          <i>Stack: React Native.</i>
         </p>
       </div>
     </Info>
@@ -177,7 +176,7 @@ const Content = () => (
             Age of Empires II: The Age of Kings is a real-time strategy video
             game. The app was developed to help people that don't have the game
             installed and is watching a live stream, and want to check the
-            civilizations bonuses{' '}
+            civilizations bonuses{" "}
             <a href="https://aoe2techtree.com">aoe2techtree.com</a>
           </i>
         </p>
@@ -188,7 +187,9 @@ const Content = () => (
 
         <p>
           <i>
-            Stack: Reactjs, flow, styled-components, code-splitting, css flexbox, sprite image, border-image, svg, progressive web app, continuous integration with Bitbucket and Netlify.
+            Stack: Reactjs, flow, styled-components, code-splitting, css
+            flexbox, sprite image, border-image, svg, progressive web app,
+            continuous integration with Bitbucket and Netlify.
           </i>
         </p>
       </div>

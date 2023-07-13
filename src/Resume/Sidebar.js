@@ -1,5 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
+import { Link } from "@styled-icons/entypo/Link";
 
 const Container = styled.aside`
   background-color: #3f51b5;
@@ -10,14 +11,14 @@ const Container = styled.aside`
     margin-bottom: 10px;
   }
 
-  h3 {
-    font-size: 30px;
+  h2 {
+    font-size: 22px;
     font-weight: 300;
     margin-top: 0;
   }
 
   h1,
-  h3,
+  h2,
   p {
     padding-left: 20px;
     padding-right: 20px;
@@ -28,7 +29,7 @@ const Container = styled.aside`
     color: #000;
 
     h1,
-    h3,
+    h2,
     p {
       padding-left: 10px;
       padding-right: 10px;
@@ -65,7 +66,7 @@ const AsideInfo = styled.p`
 const Sidebar = () => (
   <Container>
     <h1>Jesse Mezini</h1>
-    <h3>Web Developer</h3>
+    <h2>Web and Mobile App Developer</h2>
 
     <AsideHeader>Personal Info</AsideHeader>
     <AsideInfo>
@@ -92,7 +93,9 @@ const Sidebar = () => (
     <AsideInfo>
       Github <br />
       <span>
-        <a href="https://github.com/jessemezini">github.com/jessemezini</a>
+        <a href="https://github.com/jessemezini">
+          github.com/jessemezini <Link size="14px" />
+        </a>
       </span>
     </AsideInfo>
 
@@ -126,26 +129,23 @@ const Sidebar = () => (
 
     <AsideHeader>Courses</AsideHeader>
     <AsideInfo>
+      <span>The Complete React Native + Hooks Course - Udemy.com</span>
+    </AsideInfo>
+
+    <AsideInfo>
+      <span>Modern React with Redux - Udemy.com</span>
+    </AsideInfo>
+
+    <AsideInfo>
+      <span>Advanced React and Redux - Udemy.com</span>
+    </AsideInfo>
+
+    <AsideInfo>
+      <span>React Testing with Jest and Enzyme - Udemy.com</span>
+    </AsideInfo>
+
+    <AsideInfo>
       <span>ES6 es6.io</span>
-    </AsideInfo>
-
-    <AsideInfo>
-      <span>React for Beginners reactforbeginners.com</span>
-    </AsideInfo>
-
-    <AsideInfo>
-      <span>Modern React with Redux udemy.com/react-redux</span>
-    </AsideInfo>
-
-    <AsideInfo>
-      <span>Advanced React and Redux udemy.com/react-redux-tutorial</span>
-    </AsideInfo>
-
-    <AsideInfo>
-      <span>
-        React Testing with Jest and Enzyme
-        udemy.com/react-testing-with-jest-and-enzyme/
-      </span>
     </AsideInfo>
 
     <AsideInfo>
