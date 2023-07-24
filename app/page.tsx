@@ -13,7 +13,7 @@ export default function Home() {
         </Link>
       </div>
       <h1 className="text-7xl font-bold my-5">Jesse Mezini</h1>
-      <h2 className="text-3xl">Web & Mobile Developer</h2>
+      <h2 className="text-3xl">Mobile Developer</h2>
     </main>
   );
 }
