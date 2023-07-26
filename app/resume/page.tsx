@@ -21,8 +21,8 @@ const SectionTitle = ({ text }: { text: string }) => (
 export default function Resume() {
   return (
     <div className="dark:bg-gray-900 bg-gray-300">
-      <main className="flex flex-col gap-5 max-w-5xl mx-auto dark:bg-black bg-white">
-        <aside className="bg-sky-800 text-white py-5">
+      <main className="flex flex-col md:flex-row max-w-5xl mx-auto dark:bg-black bg-white">
+        <aside className="bg-sky-800 text-white py-5 basis-full">
           <AsideContainer>
             <h1 className="text-4xl">Jesse Mezini</h1>
             <h2 className="text-xl">Mobile Developer</h2>
@@ -81,7 +81,7 @@ export default function Resume() {
           </AsideContainer>
         </aside>
 
-        <section className="px-5 py-5">
+        <section className="mx-5 md:mx-10 pt-5 md:pt-10 pb-5">
           <header>
             <p>
               Desenvolvedor web e mobile com mais de 10 anos de experiência.
