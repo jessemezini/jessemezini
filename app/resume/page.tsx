@@ -1,3 +1,5 @@
+import { experience, education, projects } from "./data";
+
 const AsideContainer = ({ children }: { children: React.ReactNode }) => (
   <div className="px-5 my-4">{children}</div>
 );
@@ -92,36 +94,74 @@ export default function Resume() {
           <section>
             <SectionTitle text="Experiência" />
 
-            <article>
-              <p className="my-5">
-                2013-01 <br /> 2023
-              </p>
-
-              <div>
-                <h3 className="mb-2 font-bold text-lg">Desenvolvedor Web</h3>
-                <p className="italic mb-5">Freelancer / Empreendedor Solo</p>
-
-                <ul className="list-disc pl-5 mb-5">
-                  <li>
-                    Reunir com clientes para coletar requisitos, projetar sites
-                    e definir cronogramas
-                  </li>
-                  <li>
-                    Projetar e desenvolver sites com html5 e design responsivo
-                  </li>
-                  <li>
-                    Otimização de sites, usando ferramentas como lighthouse,
-                    chrome audits e webpagetest.org
-                  </li>
-                </ul>
-
-                <p>
-                  Stack: HTML, CSS, Javascript, Typescript, React, Gatsby,
-                  Next.js, MUI, Styled Components, Tailwind, Firebase, Digital
-                  Ocean, Netlify, Vercel, Github, PWA, Wordpress, Lemp..
+            {experience.map((item, i) => (
+              <article key={i} className="mb-16">
+                <p className="my-5">
+                  {item.startDate} <br /> {item.endDate}
                 </p>
-              </div>
-            </article>
+
+                <div>
+                  <h3 className="mb-2 font-bold text-lg">{item.title}</h3>
+                  <p className="italic mb-5">{item.desc}</p>
+                  <p className="mb-5">{item.about}</p>
+
+                  <ul className="list-disc pl-5 mb-5">
+                    {item.list.map((listItem, i) => (
+                      <li key={i}>{listItem}</li>
+                    ))}
+                  </ul>
+
+                  <p>Stack: {item.stack}</p>
+                </div>
+              </article>
+            ))}
+          </section>
+
+          <section>
+            <SectionTitle text="Educação" />
+
+            {education.map((item, i) => (
+              <article key={i} className="mb-16">
+                <p className="my-5">
+                  {item.startDate} <br /> {item.endDate}
+                </p>
+
+                <div>
+                  <h3 className="mb-2 font-bold text-lg">{item.title}</h3>
+
+                  <ul className="list-disc pl-5 mb-5">
+                    {item.list.map((listItem, i) => (
+                      <li key={i}>{listItem}</li>
+                    ))}
+                  </ul>
+                </div>
+              </article>
+            ))}
+          </section>
+
+          <section>
+            <SectionTitle text="Projetos" />
+
+            {projects.map((item, i) => (
+              <article key={i} className="mb-16">
+                <p className="my-5">
+                  {item.startDate} <br /> {item.endDate}
+                </p>
+
+                <div>
+                  <h3 className="mb-2 font-bold text-lg">{item.title}</h3>
+                  <p className="italic mb-5">{item.desc}</p>
+
+                  <ul className="list-disc pl-5 mb-5">
+                    {item.list.map((listItem, i) => (
+                      <li key={i}>{listItem}</li>
+                    ))}
+                  </ul>
+
+                  <p>Stack: {item.stack}</p>
+                </div>
+              </article>
+            ))}
           </section>
         </section>
       </main>
