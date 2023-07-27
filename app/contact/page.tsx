@@ -1,5 +1,11 @@
-import React from "react";
+import Nav from "../components/nav";
 
 export default function Contact() {
-  return <div>Contact</div>;
+  return (
+    <>
+      <Nav />
+
+      <div className="max-w-6xl mx-auto">Contato</div>
+    </>
+  );
 }
