@@ -2,10 +2,10 @@ import Nav from "../components/nav";
 
 export default function Portfolio() {
   return (
-    <>
+    <div className="min-h-screen">
       <Nav />
 
-      <div className="max-w-6xl mx-auto">Portfolio</div>
-    </>
+      <main className="max-w-6xl mx-auto">Portfolio</main>
+    </div>
   );
 }
