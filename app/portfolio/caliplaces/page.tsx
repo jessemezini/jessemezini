@@ -1,6 +1,5 @@
-"use client";
 import Image from "next/image";
-import ReactPlayer from "react-player";
+import Player from "../player";
 
 const text = "[&>p]:text-zinc-600 [&>p]:dark:text-zinc-300";
 
@@ -27,16 +26,7 @@ export default function CaliPlaces() {
 
       <p className="my-6 text-sm italic">iOS & Android (Em desenvolvimento)</p>
 
-      <div className="w-[390px] h-[844px] mx-auto my-10 border-2  rounded-2xl p-2">
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=wayPfGvp2vw"
-          width="100%"
-          height="100%"
-          playing={true}
-          loop={true}
-          muted
-        />
-      </div>
+      <Player />
     </div>
   );
 }
