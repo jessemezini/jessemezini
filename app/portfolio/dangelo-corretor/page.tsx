@@ -28,7 +28,7 @@ export default function DangeloCorretor() {
 
       <p className="my-6 text-sm italic">iOS & Android (Em desenvolvimento)</p>
 
-      <Player url="https://www.youtube.com/watch?v=wayPfGvp2vw" />
+      <Player url="https://www.youtube.com/watch?v=kUPHa2zzQ44" />
     </div>
   );
 }
