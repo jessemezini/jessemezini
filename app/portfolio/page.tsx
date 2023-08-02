@@ -13,7 +13,7 @@ export default function Portfolio() {
       <h1 className="text-4xl mb-14 font-bold">Portfolio</h1>
 
       <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2">
-        <Link href="#" className={border}>
+        <Link href="/portfolio/zen-em-casa" className={border}>
           <div className={content}>
             <div className="flex justify-between">
               <h2 className={title}>App Zen em Casa</h2>
@@ -27,7 +27,7 @@ export default function Portfolio() {
           </div>
         </Link>
 
-        <Link href="#" className={border}>
+        <Link href="/portfolio/onibus-iracemapolis" className={border}>
           <div className={content}>
             <div className="flex justify-between">
               <h2 className={title}>App Ônibus Iracemápolis</h2>
@@ -53,7 +53,7 @@ export default function Portfolio() {
           </div>
         </Link>
 
-        <Link href="#" className={border}>
+        <Link href="/portfolio/dangelo-corretor" className={border}>
           <div className={content}>
             <div className="flex justify-between">
               <h2 className={title}>dangelocorretor.com.br</h2>
@@ -64,7 +64,7 @@ export default function Portfolio() {
           </div>
         </Link>
 
-        <Link href="#" className={border}>
+        <Link href="/portfolio/site-cardapio" className={border}>
           <div className={content}>
             <div className="flex justify-between">
               <h2 className={title}>Site Cardápio</h2>

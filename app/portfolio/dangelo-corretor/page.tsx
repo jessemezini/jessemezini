@@ -3,7 +3,7 @@ import Player from "../player";
 
 const text = "[&>p]:text-zinc-600 [&>p]:dark:text-zinc-300";
 
-export default function CaliPlaces() {
+export default function DangeloCorretor() {
   return (
     <div className={`text-center ${text}`}>
       <Image
@@ -14,7 +14,9 @@ export default function CaliPlaces() {
         className="mx-auto mb-10 rounded-xl"
       />
 
-      <h1 className="text-4xl mb-10 font-bold">App Cali Places</h1>
+      <h1 className="text-4xl mb-10 font-bold">
+        Site e Painel Admin - Dangelo Corretor
+      </h1>
       <p className={text}>
         Aplicativo para encontrar e adicionar novos locais para praticar
         calistenia
@@ -26,7 +28,7 @@ export default function CaliPlaces() {
 
       <p className="my-6 text-sm italic">iOS & Android (Em desenvolvimento)</p>
 
-      <Player url="https://www.youtube.com/watch?v=tovQHqRBL-Y" />
+      <Player url="https://www.youtube.com/watch?v=wayPfGvp2vw" />
     </div>
   );
 }
