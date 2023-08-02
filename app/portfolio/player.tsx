@@ -10,7 +10,7 @@ export default function Player({ url }: { url: string }) {
   }, []);
 
   return (
-    <div className="w-[390px] h-[844px] mx-auto my-10 border-4 border-zinc-800  rounded-2xl p-2">
+    <div className="w-[390px] h-[820px] mx-auto my-10 border-4 border-zinc-800 rounded-2xl p-2">
       {isClient && (
         <ReactPlayer
           url={url}
