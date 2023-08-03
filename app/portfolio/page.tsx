@@ -43,7 +43,7 @@ export default function Portfolio() {
         <Link href="/portfolio/caliplaces" className={border}>
           <div className={content}>
             <div className="flex justify-between">
-              <h2 className={title}>caliplaces.com</h2>
+              <h2 className={title}>App Cali Places</h2>
               <BiChevronRight size="24" />
             </div>
 
@@ -56,7 +56,7 @@ export default function Portfolio() {
         <Link href="/portfolio/dangelo-corretor" className={border}>
           <div className={content}>
             <div className="flex justify-between">
-              <h2 className={title}>dangelocorretor.com.br</h2>
+              <h2 className={title}>Site Dangelo Corretor</h2>
               <BiChevronRight size="24" />
             </div>
 
