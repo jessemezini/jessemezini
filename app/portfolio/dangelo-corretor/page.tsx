@@ -18,7 +18,7 @@ export default function DangeloCorretor() {
       <p className="max-w-xl">Site do corretor de imóveis Dangelo Olivatto</p>
 
       <div className="my-6">
-        <a href="https://dangelocorretor.com/">Website &#8594;</a>
+        <a href="https://dangelocorretor.com.br/">Website &#8594;</a>
       </div>
 
       <Player url="https://www.youtube.com/watch?v=kUPHa2zzQ44" />
