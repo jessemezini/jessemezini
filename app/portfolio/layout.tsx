@@ -12,7 +12,7 @@ export default function PortfolioLayout({
     <div className="min-h-screen">
       <Nav />
       <main
-        className={`max-w-6xl mx-auto p-5 ${textColor} text-center flex flex-col items-center`}
+        className={`max-w-6xl mx-auto mb-10 p-5 ${textColor} text-center flex flex-col items-center`}
       >
         {children}
       </main>
