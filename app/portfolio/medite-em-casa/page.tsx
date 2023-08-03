@@ -1,12 +1,9 @@
 import Image from "next/image";
 import Player from "../player";
 
-const text =
-  "[&>p]:text-zinc-600 [&>p]:dark:text-zinc-300 [&>li]:text-zinc-600 [&>li]:dark:text-zinc-300";
-
 export default function MediteEmCasa() {
   return (
-    <div className={`text-center ${text} flex flex-col items-center`}>
+    <>
       <Image
         src="/mediteemcasa.png"
         width={240}
@@ -26,7 +23,7 @@ export default function MediteEmCasa() {
 
       <Player url="https://www.youtube.com/watch?v=qRskoKyrzBE" />
 
-      <ul className={`list-disc pl-5 mb-5 max-w-xl text-left ${text}`}>
+      <ul className="list-disc pl-5 mb-5 max-w-xl text-left">
         <li>Desenvolvido com React Native Expo</li>
         <li>
           Painel de gerenciamento desenvolvido com Typescript, Next.js, Material
@@ -45,6 +42,6 @@ export default function MediteEmCasa() {
         Stack: React Native, Expo, Typescript, RN Paper, Firebase, Zustand,
         React Hook Form, Next.js, Revenue Cat, Firebase Analytics e Crashlytics.
       </p>
-    </div>
+    </>
   );
 }

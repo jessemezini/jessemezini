@@ -1,11 +1,9 @@
 import Image from "next/image";
 import Player from "../player";
 
-const text = "[&>p]:text-zinc-600 [&>p]:dark:text-zinc-300";
-
 export default function OnibusIracemapolis() {
   return (
-    <div className={`text-center ${text}`}>
+    <>
       <Image
         src="/caliplaces-dark.png"
         width={240}
@@ -15,7 +13,7 @@ export default function OnibusIracemapolis() {
       />
 
       <h1 className="text-4xl mb-10 font-bold">App Ônibus Iracemápolis</h1>
-      <p className={text}>
+      <p className="max-w-xl">
         Aplicativo para encontrar e adicionar novos locais para praticar
         calistenia
       </p>
@@ -27,6 +25,6 @@ export default function OnibusIracemapolis() {
       <p className="my-6 text-sm italic">iOS & Android (Em desenvolvimento)</p>
 
       <Player url="https://www.youtube.com/watch?v=wayPfGvp2vw" />
-    </div>
+    </>
   );
 }
