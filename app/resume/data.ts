@@ -55,7 +55,7 @@ export const projects = [
   {
     startDate: "2022",
     endDate: "2023",
-    title: "App Zen em Casa",
+    title: "App Medite em Casa",
     desc: "Aplicativo de meditação e sono feito em parceria com o idealizador do canal Meditar para Despertar, Fabio Lima, canal do Youtube com mais de 680 mil inscritos. No momento o aplicativo não está no ar, está sendo adicionado conteúdo para lançamento. Para visualização entrar em contato, está no Closed Testing da Play Store e TestFlight para iOS.",
     list: [
       "Desenvolvido com React Native Expo",

@@ -5,18 +5,18 @@ const border =
   "rounded-2xl p-0.5 bg-gradient-to-r from-zinc-200 via-zinc-300 to-zinc-400 dark:from-zinc-700 dark:via-zinc-600 dark:to-zinc-500 hover:dark:from-zinc-600 hover:dark:via-zinc-500 hover:dark:to-zinc-400";
 const content = "rounded-2xl h-full p-8 bg-neutral-100 dark:bg-black";
 const title = "text-2xl font-bold mb-6 text-zinc-800 dark:text-zinc-200";
-const text = "text-zinc-600 dark:text-zinc-400 leading-8";
+const text = "text-zinc-600 dark:text-zinc-400 leading-8 text-left";
 
 export default function Portfolio() {
   return (
     <>
-      <h1 className="text-4xl mb-14 font-bold">Portfolio</h1>
+      <h1 className="text-4xl mb-14 font-bold self-start">Portfolio</h1>
 
       <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2">
-        <Link href="#" className={border}>
+        <Link href="/portfolio/medite-em-casa" className={border}>
           <div className={content}>
             <div className="flex justify-between">
-              <h2 className={title}>App Zen em Casa</h2>
+              <h2 className={title}>App Medite em Casa</h2>
               <BiChevronRight size="24" />
             </div>
 
@@ -27,7 +27,7 @@ export default function Portfolio() {
           </div>
         </Link>
 
-        <Link href="#" className={border}>
+        <Link href="/portfolio/onibus-iracemapolis" className={border}>
           <div className={content}>
             <div className="flex justify-between">
               <h2 className={title}>App Ônibus Iracemápolis</h2>
@@ -43,7 +43,7 @@ export default function Portfolio() {
         <Link href="/portfolio/caliplaces" className={border}>
           <div className={content}>
             <div className="flex justify-between">
-              <h2 className={title}>caliplaces.com</h2>
+              <h2 className={title}>App Cali Places</h2>
               <BiChevronRight size="24" />
             </div>
 
@@ -53,10 +53,10 @@ export default function Portfolio() {
           </div>
         </Link>
 
-        <Link href="#" className={border}>
+        <Link href="/portfolio/dangelo-corretor" className={border}>
           <div className={content}>
             <div className="flex justify-between">
-              <h2 className={title}>dangelocorretor.com.br</h2>
+              <h2 className={title}>Site Dangelo Corretor</h2>
               <BiChevronRight size="24" />
             </div>
 
@@ -64,7 +64,7 @@ export default function Portfolio() {
           </div>
         </Link>
 
-        <Link href="#" className={border}>
+        <Link href="/portfolio/site-cardapio" className={border}>
           <div className={content}>
             <div className="flex justify-between">
               <h2 className={title}>Site Cardápio</h2>
