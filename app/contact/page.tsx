@@ -1,5 +1,10 @@
 import Nav from "../components/nav";
-import { MdOutlineEmail, MdAlternateEmail, MdWhatsapp } from "react-icons/md";
+import {
+  MdOutlineEmail,
+  MdAlternateEmail,
+  MdWhatsapp,
+  MdFacebook,
+} from "react-icons/md";
 
 const border =
   "rounded-2xl p-px bg-gradient-to-r from-zinc-200 via-zinc-300 to-zinc-400 dark:from-zinc-700 dark:via-zinc-600 dark:to-zinc-500 hover:dark:from-zinc-600 hover:dark:via-zinc-500 hover:dark:to-zinc-400";
@@ -16,7 +21,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto p-5">
         <h1 className="text-4xl mb-14 font-bold">Contato</h1>
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className={border}>
             <div className={content}>
               <MdOutlineEmail size="45" />
@@ -33,6 +38,15 @@ export default function Contact() {
               <MdWhatsapp size="45" />
               <h2 className={title}>
                 <small>19</small> 98260.4543
+              </h2>
+            </div>
+          </div>
+
+          <div className={border}>
+            <div className={content}>
+              <MdFacebook size="45" />
+              <h2 className={title}>
+                <a href="https://www.facebook.com/jessemezini">@jessemezini</a>
               </h2>
             </div>
           </div>
