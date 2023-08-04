@@ -21,7 +21,7 @@ export default function DangeloCorretor() {
         <a href="https://dangelocorretor.com.br/">Website &#8594;</a>
       </div>
 
-      <Player url="https://www.youtube.com/watch?v=kUPHa2zzQ44" />
+      <Player url="https://www.youtube.com/watch?v=Wq7G0KbPuFE" />
 
       <ul className="list-disc pl-5 mb-5 max-w-xl text-left">
         <li>Painel de gerenciamento desenvolvido com React e Firebase</li>
