@@ -1,7 +1,7 @@
 export const experience = [
   {
     startDate: "2013-01",
-    endDate: "2023",
+    endDate: "2024",
     title: "Desenvolvedor Web e Mobile",
     desc: "Freelancer / Empreendedor Solo",
     list: [
@@ -14,7 +14,7 @@ export const experience = [
   },
   {
     startDate: "2014-01",
-    endDate: "2023",
+    endDate: "2024",
     title: "Desenvolvedor Web",
     desc: "Gazeta de Iracemápolis (Freelancer)",
     about:
@@ -24,7 +24,7 @@ export const experience = [
       "Gerenciamento de conteúdo web e mídia social",
       "Criação de artes e diagramação de jornal e revista",
     ],
-    stack: "",
+    stack: "Wordpress, Lemp, Vagrant Wordpress",
   },
 ];
 
