@@ -1,9 +1,25 @@
+export const skills = [
+  "React Native",
+  "React.js",
+  "Next.js",
+  "HTML / CSS",
+  "JavaScript / TypeScript",
+  "Firebase",
+  "Tailwind CSS",
+  "Styled Components",
+  "Material UI",
+  "React Hook Form",
+  "Git",
+  "Photoshop / Figma",
+  "Progressive Web Apps (PWAs)",
+];
+
 export const experience = [
   {
     startDate: "2013-01",
     endDate: "2024",
-    title: "Desenvolvedor Web e Mobile",
-    desc: "Freelancer / Empreendedor Solo",
+    title: "Software Developer",
+    desc: "Autônomo/Freelancer · Full-time",
     list: [
       "Reunir com clientes para coletar requisitos, projetar sites e definir cronogramas",
       "Projetar e desenvolver sites com html5 e design responsivo",
@@ -11,20 +27,6 @@ export const experience = [
     ],
     stack:
       "Stack: HTML, CSS, Javascript, Typescript, React, Gatsby, Next.js, React Native, MUI, Styled Components, Tailwind, Firebase, Digital Ocean, Netlify, Vercel, Github, PWA, Wordpress, Lemp..",
-  },
-  {
-    startDate: "2014-01",
-    endDate: "2024",
-    title: "Desenvolvedor Web",
-    desc: "Gazeta de Iracemápolis (Freelancer)",
-    about:
-      "A Gazeta de Iracemápolis é a principal empresa de mídia jornalística de Iracemápolis-SP",
-    list: [
-      "Criação, desenvolvimento e manutenção de sites",
-      "Gerenciamento de conteúdo web e mídia social",
-      "Criação de artes e diagramação de jornal e revista",
-    ],
-    stack: "Wordpress, Lemp, Vagrant Wordpress",
   },
 ];
 
