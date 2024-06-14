@@ -34,26 +34,12 @@ export const education = [
   {
     startDate: "2013",
     endDate: "2016",
-    title:
-      "Análise e Desenvolvimento de Sistemas, Faculdade Integrada Einstein de Limeira",
-    list: [
-      "Cursos de programação, estruturas de dados e arquitetura de computadores",
-    ],
+    title: "Faculdade Integrada Einstein de Limeira",
+    list: ["Análise e Desenvolvimento de Sistemas"],
   },
 ];
 
 export const projects = [
-  {
-    startDate: "2015",
-    endDate: "2023",
-    title: "App Ônibus Iracemápolis",
-    desc: "Aplicativo para usuários do transporte público de Iracemápolis/SP",
-    list: [
-      "Desenvolvido inicialmente com Ionic e Angular v1, atualmente com React Native",
-      "Com mais de 2,4 mil downloads e classificação média de 4,7 no Google Play",
-    ],
-    stack: "React Native",
-  },
   {
     startDate: "2022",
     endDate: "2023",
@@ -72,6 +58,18 @@ export const projects = [
     stack:
       "React Native, Expo, Typescript, RN Paper, Firebase, Zustand, React Hook Form, Next.js, Revenue Cat, Firebase Analytics e Crashlytics.",
   },
+  {
+    startDate: "2015",
+    endDate: "2023",
+    title: "App Ônibus Iracemápolis",
+    desc: "Aplicativo para usuários do transporte público de Iracemápolis/SP",
+    list: [
+      "Desenvolvido inicialmente com Ionic e Angular v1, atualmente com React Native",
+      "Com mais de 2,4 mil downloads e classificação média de 4,7 no Google Play",
+    ],
+    stack: "React Native",
+  },
+
   {
     startDate: "2023",
     endDate: "",
