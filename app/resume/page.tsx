@@ -74,6 +74,15 @@ export default function Resume() {
               Outros cursos: es6.io, codecademy.com, egghead.io, coursera.org..
             </p>
           </AsideContainer>
+
+          <AsideTitle text="Certificações" />
+
+          <AsideContainer>
+            <p>
+              Learning How to Learn: Powerful mental tools to help you master
+              tough subjects - Deep Teaching Solutions - Coursera
+            </p>
+          </AsideContainer>
         </aside>
 
         <section className="mx-5 md:mx-10 pt-5 md:pt-10 pb-5">
